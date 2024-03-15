@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <script src="JS/Script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo App</title>
+</head>
+<body>
+  <img src="imgs/ana.png" 
+  style="width: 100px;">
+
+  <div id="app">
+    <!-- Botones para cada función -->
+    <button onclick="mostrarTodosIDs()">Lista de todos los pendientes (solo IDs)</button>
+    <button onclick="mostrarTodosIDsYTitles()">Lista de todos los pendientes (IDs y Titles)</button>
+    <button onclick="mostrarSinResolver()">Lista de todos los pendientes sin resolver (ID y Title)</button>
+    <button onclick="mostrarResueltos()">Lista de todos los pendientes resueltos (ID y Title)</button>
+    <button onclick="mostrarTodosIDsYUserIDs()">Lista de todos los pendientes (IDs y userlD)</button>
+    <button onclick="mostrarResueltosIDsYUserIDs()">Lista de todos los pendientes resueltos (ID y userID)</button>
+    <button onclick="mostrarSinResolverIDsYUserIDs()">Lista de todos los pendientes sin resolver (ID y userID)</button>
+
+    <!-- Contenedor para mostrar los resultados de la API -->
+    <div id="resultados"></div>
+  </div>
+
+</body>
+</html>
